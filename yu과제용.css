@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 56px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    padding-left: 15px;
+    z-index: 1000;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    min-width: 5%;
+    height: 24px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lologo{
+    height: 20px;
+}
+
+.kr{
+    margin: -11px 0 0 4px;
+}
+
+#country{
+    color: gray;
+    font-size: 10px;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    background-color: black;
+    width: 500px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0 4px 0 12px;
+    border: 1px solid white;
+}
+
+.make {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.make .icon {
+    width: 85px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.sicon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.bar {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.login {
+    min-width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 80px;
+    height: calc(100vh - 56px);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.menu-item span {
+    font-size: 12px;
+}
+
+.main {
+    margin-left: 80px;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
